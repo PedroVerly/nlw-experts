@@ -1,95 +1,95 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
-      respostas: [
-        "Exibir uma mensagem de erro",
-        "Imprimir dados no console",
-        "Criar uma variável"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em comparações em JavaScript?",
-      respostas: [
-        "Comparação de valores sem considerar o tipo",
-        "Atribuição de valores",
-        "Comparação estrita de valores e tipos"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Como se declara uma variável em JavaScript?",
-      respostas: [
-        "let myVar;",
-        "const myVar = 10;",
-        "ambas as opções acima estão corretas"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Um tipo de dado",
-        "Um bloco de código reutilizável",
-        "Uma variável global"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
-      respostas: [
-        "Nenhuma, são sinônimos",
-        "let é usado para valores constantes, const para variáveis",
-        "let permite reatribuição, const cria variáveis imutáveis"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Um método de criptografia",
-        "Um modelo de objeto para manipular documentos HTML",
-        "Uma linguagem de programação"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se realiza uma iteração sobre os elementos de um array em JavaScript?",
-      respostas: [
-        "Usando a estrutura 'if-else'",
-        "Com a declaração 'switch'",
-        "Utilizando loops como 'for' ou 'forEach'"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o JSON em JavaScript?",
-      respostas: [
-        "Um método de formatação de texto",
-        "Uma linguagem de estilização",
-        "Um formato de dados leve e intercambiável"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
-      respostas: [
-        "São iguais, usados de forma intercambiável",
-        "'null' representa a ausência de valor, 'undefined' é atribuído explicitamente",
-        "Ambos representam valores vazios"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se adiciona um evento a um elemento HTML usando JavaScript?",
-      respostas: [
-        "Apenas com CSS",
-        "Usando o atributo 'event'",
-        "Através do método 'addEventListener'"
-      ],
-      correta: 2
-    },
-  ];
+  {
+    pergunta: "Quem foi o primeiro homem criado por Deus?",
+    respostas: [
+      "Adão",
+      "Moisés",
+      "Abraão"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o livro que conta a história do Dilúvio?",
+    respostas: [
+      "Gênesis",
+      "Êxodo",
+      "Deuteronômio"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quem foi o profeta que enfrentou os profetas de Baal no Monte Carmelo?",
+    respostas: [
+      "Elias",
+      "Isaías",
+      "Jeremias"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem foi o rei que construiu o Templo de Jerusalém?",
+    respostas: [
+      "Salomão",
+      "Davi",
+      "Josafá"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual dos discípulos negou Jesus três vezes antes do galo cantar?",
+    respostas: [
+      "Pedro",
+      "André",
+      "João"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual foi o sinal que Deus deu a Noé como aliança após o Dilúvio?",
+    respostas: [
+      "O arco-íris",
+      "A estrela de Davi",
+      "A vara de Aarão"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem foi o profeta que foi engolido por um grande peixe?",
+    respostas: [
+      "Jonas",
+      "Isaías",
+      "Jeremias"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem foi o rei que escreveu muitos dos Salmos na Bíblia?",
+    respostas: [
+      "Davi",
+      "Salomão",
+      "Ezequias"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quantos livros existem no Novo Testamento?",
+    respostas: [
+      "27",
+      "39",
+      "66"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual foi o profeta que teve sua mensagem escrita em uma parede durante um banquete?",
+    respostas: [
+      "Daniel",
+      "Ezequiel",
+      "Oséias"
+    ],
+    correta: 0
+  },
+];
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
